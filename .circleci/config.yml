@@ -10,7 +10,7 @@ jobs:
       GO15VENDOREXPERIMENT: 1
     branches:
       only:
-        - dev
+        - master
     steps:
       - checkout
       - setup_remote_docker
